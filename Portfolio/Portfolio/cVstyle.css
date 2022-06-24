@@ -1,0 +1,131 @@
+.topnav {
+    background-color: #323436;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 #6baa75;
+    z-index: 2;
+    }
+    
+   a {
+    display:inline;
+    color: white;
+    text-decoration: none;
+    margin:20px;
+    }
+.active{
+    text-transform: uppercase;}
+
+ #bar{
+    opacity: 0;}
+
+body{
+    margin-top: 10%;
+    background-color: #323436;
+}
+p{
+    margin-top: 5%;
+    background-color: #323436;
+}
+   #open{
+    background: #04AA6D;
+    color: #ffffff;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding: 5rem 20%;
+   }
+    #mid {
+        background: #04AA6D;
+        color: #ffffff;
+        clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+        padding: 5rem 20%;
+   }
+   #close{
+    background: #04AA6D;
+    color: #ffffff;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding: 5rem 20%;
+   }
+    body {
+        margin: 0;
+        font: 16px/2.2 system-ui;
+   }
+
+   /*phone and tablet style*/
+    @media only screen and (max-width: 600px) {
+        
+    #open{
+        clip-path: polygon(0 5%, 100% 0, 100% 80%, 0 100%);}
+     #mid{
+            clip-path: polygon(0 5%, 100% 0, 100% 80%, 0 100%);
+
+    }
+    /*nav menu */
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+        z-index: 2;
+      }
+      
+      /* hide links */
+      .topnav #myLinks {
+        display: none;
+        z-index: 2;
+      }
+      
+      /*nav menu */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      /*hamburger menu */
+      .topnav a.icon {
+        background: #333;
+        display: block;
+        position: absolute;
+        right: 0;
+        
+      }
+      
+      /*highlight */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* active page */
+      .active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      /*hamburger bar xtra*/
+      #bar{
+        opacity:100%;
+        color:rgb(255, 254, 254);
+      }
+    }
+    /*signature line */
+    #sign{
+        text-align: center;
+    }
+    /*non diag*/
+    #between{
+        padding: 5rem 20%;
+        color: #ffffff;
+
+    }
+    .contact{
+      text-align: center;
+    }
+    #name{
+      text-decoration: underline;
+      text-shadow: #333;
+      font-size: larger;
+    }
